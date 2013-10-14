@@ -25,12 +25,12 @@ var Constants = {
   FUNDING_TARGET: 10.00,
   FUNDING_UNIT_SYMBOL: "mBTC",
   FUNDING_SI_SCALE: 1000,
-  FUNDING_END_DATE: new Date("September 8, 2013"),
+  FUNDING_END_DATE: new Date("December 28, 2013"),
   PRODUCT_NAME: "Product: Development Version",
-  PRODUCT_SHORT_DESCRIPTION: "One sentence description.",
+  PRODUCT_SHORT_DESCRIPTION: "Enable cloud management and control throughout your business.",
   TWITTER_USERNAME: "nodejs",
-  TWITTER_TWEET: "This student crowdfunder looks interesting.",
-  COINBASE_PREORDER_DATA_CODE: "13b56883764b54e6ab56fef3bcc7229c",
+  TWITTER_TWEET: "This crowdfunder for an open source cloud management dashboard looks interesting.",
+  COINBASE_PREORDER_DATA_CODE: "6556494e37bc102b574ed47ab1aa8dae",
   days_left: function() {
       return Math.max(Math.ceil((this.FUNDING_END_DATE - new Date()) / (1000*60*60*24)), 0);
   }
